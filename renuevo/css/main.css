@@ -43,10 +43,11 @@ padding-bottom: 20px;
 -webkit-box-shadow: 0px 1px 13px rgba(0,0,0,.18);
 	-moz-box-shadow: 0px 1px 13px rgba(0,0,0,.18);
 	box-shadow: 0px 1px 13px rgba(0,0,0,.18);
-	position:fixed;
+	/*position:fixed;*/
 	z-index:1;
 	width:100%;
 	background:#fff;
+	
 
 
 }
@@ -152,6 +153,14 @@ padding-bottom: 20px;
     float: left;
 }
 
+.divisor{
+   
+    width: auto;
+    border-right: 1px solid #e3e3e3;
+    float: left;
+    height: 100%;
+}
+
 #twitter{
     margin-right: 20px;
     /*border: solid;
@@ -185,7 +194,7 @@ padding-bottom: 20px;
 
 
 #raya{
-    background-color: green;
+    background-color: #00b805;
     width: 52px;
     height: 9px;
 }
@@ -245,6 +254,27 @@ padding-bottom: 20px;
     overflow: hidden;
 }
 
+#general-programacion{
+    width:100%;
+   /* background-color: yellow; */
+    overflow: hidden;
+	
+}
+
+#general-nosotros{
+    width:100%;
+   /* background-color: yellow; */
+   
+    overflow: hidden;
+}
+
+#general-contenido{
+    width:100%;
+   /* background-color: yellow; */
+  
+    overflow: hidden;
+}
+
 .grupo_uno{
     width:80%;
     float: left;
@@ -257,6 +287,11 @@ padding-bottom: 20px;
     padding-left: 30px;
 }
 
+.textoprogramacion{
+    text-align: justify;
+    width: 80%;
+    
+}
 
 
 
@@ -505,6 +540,39 @@ padding-bottom: 20px;
     margin: 12px 17px 0 18px;
 }
 
+.nosotros-titulo{
+
+	font-family: 'clear_sansregular';
+    font-size: 39px;
+    text-align: left;
+    margin-top: 6%;
+	width: 84%;
+}
+
+.icono{
+    float: left;
+    margin: 12px 17px 0 18px;
+}
+
+#parrafos{
+    font-family: Clear Sans Thin;
+    font-size: 18px;
+	line-height:2;
+}
+
+.social-box{
+    width: 104px;
+    height: 45px;
+    border: 1px solid #e3e3e3;
+    float: right;
+    
+}
+
+#textonoticia{
+    text-align: justify;
+    width: 90%;
+    padding-left: 40px;
+}
 
 
 .twit, .twitsprite {
@@ -537,11 +605,11 @@ padding-bottom: 20px;
 }
 
 .baja{
-	padding-bottom: 30px;
+	/*padding-bottom: 30px;*/
 }
 
 .baja-noticia{
-	padding-bottom: 100px;
+	/*padding-bottom: 100px;*/
 }
 
 .cab-progamacion{
@@ -552,7 +620,8 @@ font-family: 'clear_sansregular';
 }
 
 .acomodado{
-	padding-top: 102px;
+	/*padding-top: 102px;*/
+	/*padding-top: 30px;*/
 }
 
 .texto-negrita{

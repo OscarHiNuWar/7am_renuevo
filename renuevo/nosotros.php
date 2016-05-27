@@ -3,7 +3,7 @@
 
 		<?php include("include/head.php");?>
 </head>
-<link rel="stylesheet" type="text/css" href="css/notica.css">
+
 
 
 <body>
@@ -11,7 +11,7 @@
 		<?php include("include/menu.php");?>
 
 
-<div id="general">
+<div id="general-nosotros">
     <div class="grupo_uno">
      
         <div class="noticia">
@@ -26,7 +26,7 @@
                         
                     </div></div>
                         
-                    <div id="txtCabecera">Conozca la historia de renuevo, la voz de la cristianización</div> 
+                    <div class="nosotros-titulo">Conozca la historia de renuevo, la voz de la cristianización</div> 
                     
                     
                     
@@ -37,6 +37,7 @@
 					sostenido ha sido fruto de novedosas ofertas programáticas y su apuesta por la calidad musical, así
 					como por la conformación de un cuerpo de profesionales del micrófono le han permitido ganar amplios
 					segmentos de mercado en públicos no religiosos.  
+					<br>
 					<br>
                     <br>
                     En la actualidad, Renuevo FM se ubica en un lugar de privilegio dentro de las primeras 15 emisoras 

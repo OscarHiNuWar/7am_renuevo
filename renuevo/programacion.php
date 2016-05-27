@@ -30,14 +30,14 @@ body{
 <?php include("include/menu.php");?>
 
     
-<div id="general">
+<div id="general-programacion">
     <div class="grupo_uno acomodado">
      <div class="noticia over">
-        <div id="textonoticia" >
+        <div id="textoprogramacion" >
                 
 			<div class="baja"></div>	
 				
-		<div class="titulo_blog" style="padding:0 0 30px 0px; width:100%; border-bottom:solid 1px #f2f2f2;"><img style="margin:0px 15px -5px 0px;" src="images/pro_ico.jpg" width="36" height="41" /> <span class="cab-progamacion"> Programación de Lunes a Viernes</span></div>
+		<div class="titulo_blog" style="padding:30px 0 30px 0px; width:100%; border-bottom:solid 1px #f2f2f2;"><img style="margin:0px 15px -5px 0px;" src="images/pro_ico.jpg" width="36" height="41" /> <span class="cab-progamacion"> Programación de Lunes a Viernes</span></div>
 
 <table class="table"  width="90%" border="0" cellspacing="0" cellpadding="0">
 <tr>

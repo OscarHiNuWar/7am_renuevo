@@ -5,7 +5,7 @@
 
 
 <head>
-    <link rel="stylesheet" type="text/css" href="css/notica.css">
+    
     
     <?php include("include/head.php");?>
  </head>
@@ -15,7 +15,7 @@
 <?php include("include/menu.php");?>
 
     
-<div id="general">
+<div id="general-contenido">
     <div class="grupo_uno">
      
         <div class="noticia">
@@ -30,7 +30,7 @@
                         
                     </div></div>
                         
-                    <div id="txtCabecera">Sonografia General, Doppler a Color 
+                    <div class="nosotros-titulo">Sonografia General, Doppler a Color 
                     y Musculo Esqueletico</div> 
                     
                     
