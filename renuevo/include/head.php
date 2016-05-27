@@ -33,13 +33,13 @@
     
      
 
-		.item{ height: 150px; 
-				width: 200px;
+		.item{ height: 360px; 
+				width: 285px;
 				background-color: transparent; 
 			}
 
 		.slick-slide{
-					width:0.6%;
+					width:1%;
 					margin-right: 1px;
 					margin-left: 1px;
 					margin: auto;

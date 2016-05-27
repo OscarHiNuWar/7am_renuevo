@@ -54,7 +54,7 @@ include('sanear.php');
 			<div class="item"> <img src="images/5.jpg"> </div>
 			<div class="item"> <img src="images/6.jpg"> </div>
 			<div class="item"> <img src="images/7.jpg"> </div>
-			<div class="item"> <img src="images/7.jpg"> </div>
+			<div class="item"> <img src="images/8.jpg"> </div>
 			</div>
 		</div>
    
