@@ -1,0 +1,573 @@
+/*Fonts Only*/
+
+@font-face {
+    font-family: 'clear_sansbold';
+    src: url('../fonts/clearsans-bold-webfont.woff2') format('woff2'),
+         url('../fonts/clearsans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'clear_sansregular';
+    src: url('../fonts/clearsans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/clearsans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'clear_sans_thinregular';
+    src: url('../fonts/clearsans-thin-webfont.woff2') format('woff2'),
+         url('../fonts/clearsans-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*Fonts Only*/
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'clear_sansregular';
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+
+.cabecera{
+/*background-color: black;*/
+height:51px;
+padding-top: 29px;
+padding-bottom: 20px;
+-webkit-box-shadow: 0px 1px 13px rgba(0,0,0,.18);
+	-moz-box-shadow: 0px 1px 13px rgba(0,0,0,.18);
+	box-shadow: 0px 1px 13px rgba(0,0,0,.18);
+	position:fixed;
+	z-index:1;
+	width:100%;
+	background:#fff;
+
+
+}
+
+#content-menu{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+	}
+
+#aire{
+    margin-right: 20px;
+	margin-top:8px;
+    float: left;
+	font-size:18px;
+}
+
+
+
+#logo{
+	background:url(../images/logo-renuevo.jpg) center no-repeat;
+	width:25%;
+	height:317px;
+	float:left;
+	}
+	
+#escuchar-box{
+	width:33%;
+	height:359px;
+	float:right;
+	background:#000;
+	background:url(../images/bg_escuchar.jpg) no-repeat;
+	position:relative;
+	z-index:0;
+	}
+	
+#play-buttom{
+	width:151px;
+	height:143px;
+	background:url(../images/play-buttom.png) no-repeat;
+	position:absolute;
+	left:-20px;
+	top:24%;
+	z-index:2;
+	}
+	
+#rota-logos{
+	width:40%;
+	float:left;
+	height:359px;
+	position:relative;
+	/*z-index:-1;*/
+	}
+	
+.franja{
+	background:url(../images/franja-divisora.png) no-repeat;
+	width:207px;
+	height:360px;
+	position:absolute;
+	z-index: -2;
+	}
+
+#con{
+    margin-right: 10px;
+    float: left;
+}
+
+#instagram{
+    margin-right: 20px;
+    /*border: solid;
+    width: 37px;
+    height: 32px;*/
+    float: left;
+}
+
+.instasprite{
+    background: url(../images/sprite_social.png) no-repeat 0px 0px;
+	width: 24px;
+    height: 24px;
+    margin-top: 7px;
+    
+}
+
+.twitsprite{
+   background: url(../images/sprite_social.png) no-repeat -32px -3px;
+	width: 22px;
+	height: 18px;
+    margin-top: 10px;
+}
+
+
+.facesprite{
+    background: url(../images/sprite_social.png) no-repeat -70px -2px;
+	width: 10px;
+	height: 20px;
+}
+
+#divisor{
+    margin-right: 20px;
+    margin-top: 10px;
+    border-left: 1px solid;
+    height: 18px;
+    float: left;
+}
+
+#twitter{
+    margin-right: 20px;
+    /*border: solid;
+    width: 37px;
+    height: 32px;*/
+    float: left;
+	margin-top: 9px;
+}
+
+#facebook{
+    margin-right: 10px;
+    margin-top: 7.5px;
+   /* border: solid;
+    width: 37px;
+    height: 32px;*/
+    float: left;
+}
+
+#bot{
+    color: white;
+    margin-right: 10px;
+    float: left;
+}
+
+#boton{
+    
+    width: 52px;
+    height: 32px;
+    float: left;
+}
+
+
+#raya{
+    background-color: green;
+    width: 52px;
+    height: 9px;
+}
+
+#blanco{
+   background-color: white;
+    width: 52px;
+    height: 3px;
+}
+
+    
+.botonMenu{
+    width: 53px;
+    height: 32px;
+    background-color: #4CAF50; /* Green */
+}
+
+#numero{
+    margin-right: 20px;
+    height: 32px;
+    text-align: center;
+    border-radius: 12px;
+    background-color:#00b805;
+    float: right;
+    border: none;
+	padding:8px 20px 0 20px;
+}
+
+.sprite {
+	background: url('imgs/sprite_social.png') no-repeat 0 0;
+	width: 23px;
+	height: 23px;
+}
+
+
+#contactos{
+    
+    float: right;
+    
+}
+
+#slider{
+    width: 100%;
+	overflow:hidden;
+	height:359px;
+	padding-top:80px;
+}
+
+.tamanio-slider{
+   width: 100%;  
+}
+
+#general{
+    width:100%;
+   /* background-color: yellow; */
+   
+    overflow: hidden;
+}
+
+.grupo_uno{
+    width:80%;
+    float: left;
+	overflow:hidden;
+}
+
+.textonoticia{
+    text-align: justify;
+    width: 80%;
+    padding-left: 30px;
+}
+
+
+
+
+.titulo{
+    font-family: 'clear_sansbold';
+    font-size: 18px;
+    color: #007828;
+    line-height: 1.6;
+    margin-bottom: 0px;
+	margin-top:25px;
+    
+}
+
+.txtCabecera{
+    font-family:  'clear_sansregular';
+    font-size: 26px;
+    margin-top: 0;
+}
+
+
+
+.parrafos{
+    font-family: 'clear_sans_thinregular';
+    font-size: 18px;
+	line-height:1.8;
+}
+
+
+.informacionGeneral{
+    /*background-color: cornflowerblue;*/
+    width: 49.9%;
+	margin-right:1px;
+	margin-top:1px; 
+    float: left;
+}
+
+.img-art{
+	width:100%;
+	overflow:hidden;
+	height:252px;
+	position:relative;
+	}
+	
+.cuadro-color{
+	width:100%;
+	height:100%;
+	background:rgba(0, 0, 0, 0.4);
+	position:absolute;
+	}
+
+.imgGeneral{
+   /* background-color: burlywood;*/
+    width: 100%;
+	margin:auto; 
+	overflow:hidden;
+	margin-top:35px;
+	float:left;
+}
+
+.contenedormini{
+    float: left;
+    width: 17.03%;
+	margin-right:1px;
+    
+}
+
+.contenedorgrande{
+    float: left;
+    width: 65.6%;
+	margin-right:1px;
+}
+
+.mini{
+    width: 100%;
+    height: 133px;
+    float: left;
+	overflow:hidden;
+	background:#333;
+	margin-bottom:1px;
+	/*margin-right:1px;*/
+}
+
+.mini img{
+}
+
+.grande{
+    width: 49.9%;
+	height:267px;
+    float: left;
+	overflow:hidden;
+	margin-right:1px;
+}
+
+#imgmini{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.importante{
+    /*background-color: darkgreen;*/
+    width: 20%; 
+    float: left;
+}
+
+.importante-ajuste{
+    height: 100%;
+    width: 100%;
+}
+
+
+#textoVideo{
+   
+    font-size: 40px;
+    height: 18.8%;
+    width: 20%;
+	color:#fff;
+    float: left;
+    margin: 5% 0 5% 5%;
+    
+}
+
+#parteVideo{
+    height: 375px;
+}
+
+#mediaVideo{
+   /* background-color: darksalmon;*/
+    height: 330px; 
+    width: 575px; 
+    margin: 2% 20px 3% 0;
+    float: right; 
+}
+
+#txt{
+    background-color: green; 
+    width: 73px; 
+    height: 33px; 
+    text-align: center; 
+}  
+
+.sonografia{
+    width: 430px;
+    text-align: left;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.contenedorvideo{
+    height: 100%;
+    background-image: url(../images/video.jpg);
+}
+
+#footer{
+    height: 60px;
+    width: 84%;
+	margin: auto;
+	padding-top: 30px;
+    
+}
+
+#footer p{
+    float: left; 
+	margin: 0;
+	
+    /*padding-top: 30px;*/
+}
+
+#footer a{
+    float: right; 
+    /*padding-top: 50px;*/
+}
+
+
+.textea{
+	text-decoration: none;
+	font-family: 'clear_sans_thinregular';
+}
+
+/* Slider */
+
+.contenedor-slider{
+	background: transparent;
+	margin-left: /*162px*/ 31%;
+	margin-top: 100px;
+}
+
+.mini-carousel{
+	/*padding: 30px;*/
+	width: 100%;
+	
+}
+
+/* Galeria */
+
+.contenedor-galeria{
+
+}
+
+.filauno{
+    width: 100%;
+}
+
+.filados{
+    width: 100%;
+}
+
+.filatres{
+    width: 100%;
+}
+
+.imagen-larga{
+    width: 59.9%;
+    height: 266px;
+    float: left;
+
+}
+
+.imagen-corta{
+    width: 39.9%;
+    height: 266px;
+    float: left;
+    
+}
+
+.imgagen-cortasegunda{
+    margin-top: 1px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    width: 33.2%;
+    height: 266px;
+    float: left;
+}
+
+
+
+.tres{
+    margin-top: 1px;
+}
+
+
+/*Nosotros PHP*/
+
+.icononosotros{
+    float: left;
+    margin: 12px 17px 0 18px;
+}
+
+
+
+.twit, .twitsprite {
+   background: url(../images/sprite_social.png) no-repeat -32px -3px;
+	width: 22px;
+	height: 18px;
+    margin-top: 13px;
+}
+
+.icon{
+	
+	
+}
+
+.img-alineo{
+	    padding: 15px 20px 20px 0;
+}
+
+
+/*Programacion php*/
+
+.noticia{
+	width: 90%;
+	padding: 0 0 0 10%;
+}
+
+.over{
+	overflow: auto;
+	height: 570px;
+}
+
+.baja{
+	padding-bottom: 30px;
+}
+
+.baja-noticia{
+	padding-bottom: 100px;
+}
+
+.cab-progamacion{
+font-family: 'clear_sansregular';
+    font-size: 39px;
+	display: inline;
+	
+}
+
+.acomodado{
+	padding-top: 102px;
+}
+
+.texto-negrita{
+	font-family: Clear Sans Thin;
+    font-size: 20px;
+}
+
+.texto-horas{
+	font-family: Clear Sans Thin;
+    font-size: 20px;
+	color: #008710;
+}
+
+.texto-horafecha{
+	color: #008710;
+	font-family: Clear Sans Thin;
+    font-size: 38px;
+}

@@ -1,0 +1,484 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'acidregular';
+    src: url('../fonts/acid-webfont.eot');
+    src: url('../fonts/acid-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/acid-webfont.woff') format('woff'),
+         url('../fonts/acid-webfont.ttf') format('truetype'),
+         url('../fonts/acid-webfont.svg#acidregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'bebasneue';
+    src: url('../font/bebasneue-webfont.eot');
+    src: url('../font/bebasneue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/bebasneue-webfont.woff') format('woff'),
+         url('../font/bebasneue-webfont.ttf') format('truetype'),
+         url('../font/bebasneue-webfont.svg#acidregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body{
+	margin:0;
+	padding:0;
+	background:url(../images/bg_contenido.jpg) no-repeat center top;
+	width:100%;
+	}
+
+#relative{
+	position:relative;
+	width:980px; 
+	margin:0 auto;
+	}
+header{
+	background:#FFF;}
+
+
+#menu_contenedor{
+	width:980px;
+	margin:0 auto;
+	background:#FFF;
+	}
+	
+#menu{
+	width:950px;
+	height:104px;
+	margin:0 auto;
+	font-family: 'acidregular';
+	font-size:23px;
+	font-weight:normal;
+	padding-left:30px;
+	}
+	
+
+#menu_left, #menu_right{
+	float:left;
+	width:316px;
+	margin-top:26px;
+	}
+	
+.ul_menu{
+	margin:0;
+	padding:13px 0 0 0;
+	
+	}
+	
+.ul_menu li{
+	list-style:none;
+	display:inline;
+	height:20px;
+	-o-transition:1s;
+	-moz-transition:1s;
+	transition:1s;
+	-webkit-transition:1s;
+	-ms-transition:1s;
+	
+	}
+.ul_menu li a{
+	text-decoration:none;
+	color:#000;
+	padding:13px 0 0 0;
+	background:url(../images/logo_hover.jpg) center -12px no-repeat;
+	-o-transition:1s;
+	-moz-transition:1s;
+	transition:1s;
+	-webkit-transition:1s;
+	-ms-transition:1s;}
+	
+	.ul_menu li a:hover{
+		color:#008710;
+		background:url(../images/logo_hover.jpg)  center 0px no-repeat;
+		-o-transition:1s;
+	-moz-transition:1s;
+	transition:1s;
+	-webkit-transition:1s;
+	-ms-transition:1s;
+		}
+
+	
+.separador{
+	display:inline;
+	border-left:1px solid #000;
+	margin:0px 24px 0 24px;	
+	}
+	
+	
+#logo{
+	width:212px;
+	float:left;
+	margin:0 52px 0 52px;
+	position:relative;
+	}
+	
+#pico_menu{
+	position: absolute;
+	left: -37px;
+	top: 104px;
+	z-index: 0;
+}
+
+#slider{
+	width:980px;
+	margin:0 auto;
+	overflow:hidden;
+	}
+#conten_photo{
+	width:613px;
+	height:357px;
+	margin:5px 0px 0 25px;
+	float:left;
+	position:relative;
+	}
+	
+
+	
+	
+	
+	
+	 #slides {
+      display: none;
+    }
+	
+	
+	
+	#escuchar{
+		float:right;
+		margin:28px 133px 0 0;}
+		
+	#pestana_left{
+	position: absolute;
+	left: -57px;
+	bottom: -19px;
+	z-index: 2;
+}
+
+#contenedor{
+	width:980px;
+	margin:0 auto;
+	margin-top:-60px;
+	position:relative;
+	z-index:3;
+	background:url(../images/bg_lineas_2.png) -15px 20px no-repeat;
+	overflow:hidden;
+	}
+	
+.programa{
+	width:428px;
+	font-family: 'acidregular';
+	float:left;
+	
+	}
+	.titulo_blog{
+		width:63%;
+		letter-spacing:-3px;
+		font-size:46px;
+		color:#008710;
+		margin-left:24px;
+		font-family: 'acidregular';
+		line-height:1;
+		padding:10px;
+		}
+	.titulo1{
+		letter-spacing:-3px;
+		font-size:50px;
+		color:#008710;
+		margin-left:24px;
+		font-family: 'acidregular';
+		line-height:1;
+		}
+		
+		.titulo_modulo{
+		letter-spacing:-1px;
+		font-size:38px;
+		color:#008710;
+		margin-left:24px;
+		font-family: 'acidregular';
+		line-height:1;
+		}
+		
+		
+		.titulo2{
+			color:#000;}
+			
+			.titulo_3{
+		letter-spacing:-1px;
+		font-size:38px;
+		color:#008710;
+		font-family: 'acidregular';
+		line-height:1;
+		background:url(../images/bg_recetas.jpg) 0 5px  no-repeat;
+		padding-left:32px;
+		margin-bottom:15px;
+		}
+			
+			
+.separador_contenido{
+	border-top:1px solid #ececec;
+	width:270px;
+	margin:10px 0 0 25px;
+	}
+	
+#contenido{
+	width:633px;
+	overflow:hidden;
+	float:left;
+	}
+	
+.div{
+	width:224px;
+	background:url(../images/icon_bocina.jpg) 8px no-repeat;
+	font-size:22px;
+	border-bottom:1px solid #ececec;
+	padding:15px 0px 15px 50px;
+	margin-left:20px;
+	}	
+	
+.div a{
+	color:#000;
+	text-decoration:none;
+	}	
+	
+.div a:hover{
+	color:#008710;
+	text-decoration: underline;
+	}	
+	
+.div_receta a{
+	color:#000;
+	text-decoration:none;
+	}	
+	
+.div_receta a:hover{
+	color:#008710;
+	text-decoration: underline;
+	}	
+	
+#audifono{
+	position: absolute;
+	left: 299px;
+	top: 49px;
+}
+
+
+.fecha{
+	color:#059816;
+	font-size:14px;
+	float:right;
+	margin:5px 5% 0 0;
+}
+
+#nota{
+	position: absolute;
+	left: -44px;
+	top: 635px;
+	}
+#cel{
+	position: absolute;
+	left: -44px;
+	top: 1009px;
+}
+	
+#recetas{
+	float:right;
+	width:283px;
+	margin:180px 50px 0 0;
+	font-family: 'acidregular';
+	}
+	
+.div_receta{
+	width:224px;
+	background:url(../images/bg_recetas.jpg) 8px no-repeat;
+	font-size:24px;
+	border-bottom:1px solid #ececec;
+	padding:11px 0px 11px 50px;
+	margin-left:20px;
+	}
+	
+#online{
+	position: absolute;
+	top:150px;
+	right:0;
+	font-family: 'acidregular';
+	z-index:99;
+	}
+
+.online_inside{
+	background:#FFF;
+	height:113px;
+	position:relative;
+	
+	}
+.flecha_flota{
+	position: absolute;
+	left: -28px;
+	}
+	
+.icon_online{
+	float:right;
+	margin:25px 35px 25px 15px;}
+	
+.fontbebas{
+	font-family: 'bebasneue';
+	font-size:24px;
+	color:#008710;
+	letter-spacing:1px;
+	}
+	
+#video{
+	position:absolute;
+	top:270px;
+	right:0;
+	font-family: 'acidregular';
+	z-index:99;
+	}
+	
+.adcristiano{
+	float:right;
+	width:270px;
+	margin:250px 350px 0 0;
+	font-family: 'acidregular';
+	
+	}
+	
+.tex_ad{
+	font-family: 'acidregular';
+	font-size:20px;
+	margin-left:20px;
+	padding-top:15px;
+	line-height:27px;
+	}
+.descripcion_ad{
+	width:300px;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-top:15px;
+	overflow:hidden;
+	}
+	
+.fecha_ad{
+	font-size:11px;
+	color:#059816;
+	float:right;
+	margin:5px 5% 0 0;}
+
+#patrocinadores{
+	float:right;
+	width:255px;
+	height:289px;
+	margin:106px 59px 0 0;
+	overflow:hidden;
+	}
+
+#redes{
+	float:left;
+	width:233px;
+	}
+
+#redes img{
+	margin:25px 0px 25px 35px;}
+	
+	
+footer{
+	min-width:353px;
+	width:84%;
+	height:160px;
+	background: url(../images/footer_repeat.jpg);
+	margin-top:50px;
+	position:relative;
+	display:block;
+	}
+	
+	footer a{
+		text-decoration:none;
+		color:#059816;
+		}
+	
+#logo_footer{
+	position: absolute;
+	left: 100%;
+	top: -16px;
+}
+
+#contenedor_footer{
+	width:800px;
+	margin:0 auto;
+	padding:40px 0 0 0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	}
+	
+	
+#ingredientes_col, #preparacion_col{
+	float:left;
+	width:287px;
+	text-align:justify;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	line-height:2.3;
+	padding-top:30px;
+	}
+#ingredientes_col{
+	margin-left:20px;}
+	
+	
+#preparacion_col{
+	margin-left:25px;
+	margin-top:35px;}
+	
+.foto_receta{
+	margin-bottom:33px;
+	width:286px;
+	height:267px;
+	overflow:hidden;
+	}
+	
+#player_col{
+	width:511px;
+	margin-top:20px;
+	}
+	
+.descripcion_player{
+	width:435px;
+	padding:10px 10px 0px 0px;
+	margin-left:23px;
+	margin-top:15px;
+	font-size:13px;
+	line-height:2.3;
+	}
+.caracter{
+	font-size:33px;
+	font-family:Helvetica, sans-serif;
+	font-weight:100;
+	}
+
+.descripcion_player .fbFeedbackContent .composer{
+	background-color:none !important;}
+	
+.table{
+	padding:0 20px 20px 20px;
+	font-family: 'acidregular';
+	font-size:20px;
+	margin: auto;
+		}
+	
+.table td{
+	border-bottom:1px  solid #f2f2f2;
+	padding:20px;
+	}
+
+.horario{
+	font-family: 'acidregular';
+	font-size:20px;
+	
+	}
+	
+	.corchete, .horario{color:#008710 !important;}
+	

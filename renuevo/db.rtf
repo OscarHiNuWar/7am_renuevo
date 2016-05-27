@@ -1,0 +1,107 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1138\cocoasubrtf510
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs24 \cf0 -- phpMyAdmin SQL Dump\
+-- version 3.5.1\
+-- http://www.phpmyadmin.net\
+--\
+-- Servidor: localhost\
+-- Tiempo de generaci\'f3n: 28-06-2013 a las 20:28:52\
+-- Versi\'f3n del servidor: 5.5.25\
+-- Versi\'f3n de PHP: 5.4.4\
+\
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";\
+SET time_zone = "+00:00";\
+\
+--\
+-- Base de datos: `renuevo`\
+--\
+\
+-- --------------------------------------------------------\
+\
+--\
+-- Estructura de tabla para la tabla `cargador`\
+--\
+\
+CREATE TABLE `cargador` (\
+  `id` int(30) NOT NULL AUTO_INCREMENT,\
+  `titulo` text NOT NULL,\
+  `textuno` longtext NOT NULL,\
+  `textdos` longtext NOT NULL,\
+  `foto` text NOT NULL,\
+  `fecha` text NOT NULL,\
+  PRIMARY KEY (`id`)\
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=6 ;\
+\
+-- --------------------------------------------------------\
+\
+--\
+-- Estructura de tabla para la tabla `podcast`\
+--\
+\
+CREATE TABLE `podcast` (\
+  `id` int(40) NOT NULL AUTO_INCREMENT,\
+  `name` varchar(40) CHARACTER SET utf8 NOT NULL,\
+  `titulo` varchar(40) CHARACTER SET utf8 NOT NULL,\
+  `descripcion` longtext CHARACTER SET utf8 NOT NULL,\
+  `fecha` varchar(40) NOT NULL,\
+  PRIMARY KEY (`id`)\
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=7 ;\
+\
+--\
+-- Volcado de datos para la tabla `podcast`\
+--\
+\
+INSERT INTO `podcast` (`id`, `name`, `titulo`, `descripcion`, `fecha`) VALUES\
+(2, '1.mp3', 'La peque\'c3\'b1a Vi\'c3\'b1a', 'La peque\'c3\'b1a vi\'c3\'b1a, de lunes a viernes.', '2013-04-15'),\
+(3, '3.mp3', 'Enamorame', 'Quiero entregarte mis sue\'c3\'b1os, tu voluntad haz en ellos. Mi coraz\'c3\'b3n te lo entrego, enamorame, de ti se\'c3\'b1or...', '2013-04-15');\
+\
+-- --------------------------------------------------------\
+\
+--\
+-- Estructura de tabla para la tabla `recetas`\
+--\
+\
+CREATE TABLE `recetas` (\
+  `id` int(11) NOT NULL AUTO_INCREMENT,\
+  `titulo` text NOT NULL,\
+  `ingredientes` longtext CHARACTER SET utf8 NOT NULL,\
+  `preparacion` longtext CHARACTER SET utf8 NOT NULL,\
+  `foto` text NOT NULL,\
+  `fecha` text NOT NULL,\
+  PRIMARY KEY (`id`)\
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=72 ;\
+\
+--\
+-- Volcado de datos para la tabla `recetas`\
+--\
+\
+INSERT INTO `recetas` (`id`, `titulo`, `ingredientes`, `preparacion`, `foto`, `fecha`) VALUES\
+(67, 'Lasa\'c3\'b1a al Estilo Griego', '9-12 l\'c3\'a1minas de lasa\'c3\'b1a (preferiblemente precocidas).\\r\\n1 lb de carne molida de res s\'c3\'baper especial.\\r\\n1/2 taza de cebolla blanca picada.\\r\\n1 lata de 8 oz de tomates triturados.\\r\\n1/4 taza de caldo de carne de res.\\r\\n1 cdta de or\'c3\'a9gano molido.\\r\\n1/4 cdta de canela molida.\\r\\n3 cdas de mantequilla.\\r\\n3 cdas de harina.\\r\\n1/4 cdta de pimienta negra reci\'c3\'a9n molida.\\r\\n2 huevos m\'c3\'a1s batidos.\\r\\n1 lata peq de aceitunas negras picadas.\\r\\n1/2 taza de queso parmesano.\\r\\n8 oz de queso feta desmenuzado.\\r\\n8 oz de queso cheddar blanco desmenuzado .tambi\'c3\'a9n.', 'Pre-calentaremos el horno a 350 F, si las l\'c3\'a1minas de lasa\'c3\'b1a no son pre-cocinas, las cocinaremos tal y como indican sus instrucciones, sino, vamos a utilizarlas tal cual; En un sart\'c3\'a9n vamos a cocinar la carne junto a la cebolla y el ajo hasta que la carne se torne color marr\'c3\'b3n, eliminaremos el l\'c3\'adquido del sart\'c3\'a9n e incorporaremos el tomate triturado, el or\'c3\'a9gano, canela y el caldo, vamos a bajar el fuego y a dejar cocer al menos 10 minutos m\'c3\'a1s totalmente destapado, tratemos de que no quede demasiado seco.\\r\\n\\r\\nEn una olla mediana vamos a derretir la mantequilla y a incorporar el harina y la pimienta, a\'c3\'b1adiremos la leche poco a poco y dejaremos cocer hasta que se espese y haga burbujas (1 minuto se toma esto) y echaremos 1/4 de taza (la mitad) del queso parmesano y retiraremos del fuego, en otro recipiente vamos a unir el resto del queso parmesano junto a los 2 huevos batidos.\\r\\n\\r\\nEn un pyrex vamos a echar 2 cdas de la salsa de queso en el fondo y a esparcir bien para luego colocar 3 \'c3\'b3 4 l\'c3\'a1minas de lasa\'c3\'b1a, luego, un tercio de la mezcla de la carne, m\'c3\'a1s de la salsa de queso y parte de las aceitunas por encima, luego la mezcla del huevo y parmesano y encima de esto vamos a echar un poco del queso feta y del cheddar blanco, repetiremos el proceso hasta terminar de ensamblar.  Hornearemos destapado durante 35 a 40 minutos, una vez listo vamos a esperar 10 minutos y procederemos a servir.', '2806201317375358.jpg', '28-06-2013'),\
+(68, 'Dulce de Coco en Alm\'c3\'adbar', '2 lata de coco en alm\'c3\'adbar\\r\\n2 latas de leche evaporada\\r\\n1 astilla de canela\\r\\n1 cdta de extracto de vainilla negra\\r\\n1 cdta de extracto de almendras\\r\\nla ralladura de un lim\'c3\'b3n (pueden sustituirla por naranja)\\r\\n1/3 taza de pasas\\r\\nuna pizca de sal', 'En una olla mediana vamos a mezclar el coco en alm\'c3\'adbar con la leche evaporada y moveremos con una cuchara de madera hasta mezclar bien, a fuego mediano, a\'c3\'b1adiremos la vainilla, el extracto de almendras y la ralladura de lim\'c3\'b3n o naranja, tambi\'c3\'a9n la astilla de canela, la pizca de sal y las pasas; continuaremos moviendo de vez en cuando hasta que se espese todo y se torne cremoso.\\r\\n\\r\\nDejaremos enfriar lo suficiente para transferir a copas o ramekins que decoraremos con astillas de canela para servir de postre.', '2806201317402968.jpg', '28-06-2013');\
+\
+-- --------------------------------------------------------\
+\
+--\
+-- Estructura de tabla para la tabla `usuarios`\
+--\
+\
+CREATE TABLE `usuarios` (\
+  `id` int(40) NOT NULL AUTO_INCREMENT,\
+  `usuario` text NOT NULL,\
+  `password` text NOT NULL,\
+  `nombre` text NOT NULL,\
+  `nivel` text NOT NULL,\
+  PRIMARY KEY (`id`)\
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;\
+\
+--\
+-- Volcado de datos para la tabla `usuarios`\
+--\
+\
+INSERT INTO `usuarios` (`id`, `usuario`, `password`, `nombre`, `nivel`) VALUES\
+(1, 'admin', '123456', 'Administrador', '');\
+}
