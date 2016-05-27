@@ -1,47 +1,19 @@
 <!DOCTYPE html>
 
-<link rel="stylesheet" type="text/css" href="css/notica.css">
+  
+
+
+<head>
     
     <?php include("include/head.php");?>
-    <?php include("include/menu.php");?>
-
-<!--
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+    
  </head>
--->
+
 
 <body>
-<!--
-<div class="cabecera">
-	<div id="content-menu">
-<div>  
-    <a href="#">
-    <div id="boton">
-    <div id="raya"></div>
-    <div id="blanco"></div>   
-    <div id="raya"></div>
-    <div id="blanco"></div>    
-    <div id="raya"></div>
-    </div>
-    </a>
+
     
-    <div id="contactos">
-        <div id="aire">Al Aire:</div>
-        <div id="bot" class="baja"><div id="numero">809.331.6999</div></div>
-        <div id="instagram" class="instasprite">  </div>
-        <div id="divisor" ></div>
-        <div id="twitter" class="twitsprite"> <a href="https://twitter.com/897renuevo?lang=es"></a> </div>
-        <div id="divisor"></div>
-        <div id="facebook" class="facesprite">  </div>
-    </div>
-    -->
-</div>
-</div>
-</div>
-    
-    
+    <?php include("include/menu.php");?>
 <div id="general">
     <div class="grupo_uno">
      
@@ -79,7 +51,7 @@
     <p>&copy;Copyright 2016. Todos los derechos reservados.</p>
     <a href="#">Desarrollado por: www.agencia7am.com</a> 
 </div>
-    
+    <?php include("include/menu3d.php");?>
     
 </body>
 </html>

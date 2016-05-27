@@ -4,7 +4,9 @@
 		<link rel="stylesheet" href="css/main.css">
 
 <title>Renuevo</title>
-
+		
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+		
 		<!-- Super Box -->
 		<link rel="stylesheet" href="css/jquery.superbox.css" type="text/css" media="all" />
 		<script type="text/javascript" src="js/jquery.js"></script>

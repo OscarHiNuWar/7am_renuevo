@@ -60,10 +60,11 @@ include('sanear.php');
 		</div>
    
      </div>
-    <div id="escuchar-box">
+     <div id="escuchar-box">
+		<a href="https://play.google.com/store/apps/details?id=tunein.player&hl=es_419" target="_blank"> <div class="clickme"></div> </a>
     	<a href="escuchar.html" target="_blank" 
 		onclick="window.open(this.href, this.target, 'width=510,height=275'); 
-		return false;"> ><div id="play-buttom"></div></a>
+		return false;"> <div id="play-buttom"></div></a>
     </div>
     
         <!--// FIN //-->
@@ -155,7 +156,7 @@ include('sanear.php');
 
 	$('.mini-carousel').slick({
     arrows: false,
-    slidesToShow: 2,
+    slidesToShow: 1,
     autoplay: true,
 	draggable: true,
     autoplaySpeed:2500,
