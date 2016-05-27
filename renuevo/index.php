@@ -31,11 +31,7 @@ include('sanear.php');
 <!DOCTYPE html>
 
 <head>
-
-<?php include("include/head.php");?>
-
- 
- 
+	<?php include("include/head.php");?>
 </head>
     
 <body>
@@ -51,13 +47,14 @@ include('sanear.php');
     	<div class="franja"></div>
 		<div class="contenedor-slider">
 			<div class="mini-carousel ">
-			<div class="item"> <img src="images/galeria1.jpg"> </div>
-			<div class="item"> <img src="images/galeria1.jpg"> </div>
-			<div class="item"> <img src="images/galeria1.jpg"> </div>
-			<div class="item"> <img src="images/galeria1.jpg"> </div>
-			<div class="item"> <img src="images/galeria1.jpg"> </div>
-			<div class="item"> <img src="images/galeria1.jpg"> </div>
-			<div class="item"> <img src="images/galeria1.jpg"> </div>
+			<div class="item"> <img src="images/1.jpg"> </div>
+			<div class="item"> <img src="images/2.jpg"> </div>
+			<div class="item"> <img src="images/3.jpg"> </div>
+			<div class="item"> <img src="images/4.jpg"> </div>
+			<div class="item"> <img src="images/5.jpg"> </div>
+			<div class="item"> <img src="images/6.jpg"> </div>
+			<div class="item"> <img src="images/7.jpg"> </div>
+			<div class="item"> <img src="images/7.jpg"> </div>
 			</div>
 		</div>
    
@@ -160,7 +157,6 @@ include('sanear.php');
     arrows: false,
     slidesToShow: 1,
     autoplay: true,
-	draggable: true,
     autoplaySpeed:2500,
     speed: 500,
     variableWidth: true,
