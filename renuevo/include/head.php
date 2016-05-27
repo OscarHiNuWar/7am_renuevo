@@ -7,16 +7,23 @@
 		
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 		
+		<meta name="keywords" content="Renuevo, renuevo, 87.9, la voz de la cristanizacion, cristanizacion,
+		la voz de la cristanización">
+    
+    <meta name="rating" content="general"/>
+	<meta name="ROBOTS" content="index, follow">
+	<meta name="revisit-after" content="1 days">
+    <meta name="author" content="agencia7am.com" />
+    <meta name="google-site-verification" content="ALaRzgkTOXzZftd3qoZQo6URJbjIROAmU3R23x19uxc" />
+		
+		
 		<!-- Super Box -->
 		<link rel="stylesheet" href="css/jquery.superbox.css" type="text/css" media="all" />
 		<script type="text/javascript" src="js/jquery.js"></script>
 		<!--<script type="text/javascript" src="js/jquery.min.js"></script>-->
 		<script type="text/javascript" src="js/jquery.superbox-min.js"></script>
 		
-	
-		
-		
-		
+
 		<link rel="stylesheet" type="text/css" href="css/slick.css"/>
 		<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
 		
@@ -27,6 +34,7 @@
      
 
 		.item{ height: 150px; 
+				width: 200px;
 				background-color: transparent; 
 			}
 
@@ -39,10 +47,6 @@
 
 
     </style>
-
-		
-		
-		
 		
 		<script type="text/javascript" src="js/jquery.js"></script>
 
@@ -51,8 +55,6 @@
 		<!-- csstransforms3d-shiv-cssclasses-prefixed-teststyles-testprop-testallprops-prefixes-domprefixes-load --> 
 		<script src="js/modernizr.custom.25376.js"></script>
 		
-		<div id="perspective" class="perspective effect-airbnb">
-			<div class="container">
-				<div class="wrapper"><!-- wrapper needed for scroll -->
-					<!-- Top Navigation -->
+		
+		
 	

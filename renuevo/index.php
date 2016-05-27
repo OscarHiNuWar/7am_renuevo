@@ -41,7 +41,9 @@ include('sanear.php');
 <body>
 
 <?php include("include/menu.php");?>
-
+<div class="spacer">
+    &nbsp;
+</div>
 
 <div id="slider">
 	<div id="logo"></div>

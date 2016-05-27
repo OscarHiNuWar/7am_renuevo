@@ -8,7 +8,9 @@
 
 <body>
 <?php include("include/menu.php");?>
-
+<div class="spacer">
+    &nbsp;
+</div>
     
 <div id="general-contenido">
     <div class="grupo_uno">

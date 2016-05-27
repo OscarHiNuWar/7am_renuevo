@@ -6,6 +6,9 @@
 
 <body>
 <?php include("include/menu.php");?>
+<div class="spacer">
+    &nbsp;
+</div>
 <!--
 <div id="slider">
     <img class="tamanio-slider slider">

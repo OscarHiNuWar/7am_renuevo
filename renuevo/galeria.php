@@ -7,13 +7,14 @@
     
     <?php include("include/head.php");?>
     
- </head>
+</head>
 
 
 <body>
-
-    
     <?php include("include/menu.php");?>
+	<div class="spacer">
+    &nbsp;
+</div>
 <div id="general">
     <div class="grupo_uno">
      

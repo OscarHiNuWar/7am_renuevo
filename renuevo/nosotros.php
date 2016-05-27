@@ -9,7 +9,9 @@
 <body>
 
 		<?php include("include/menu.php");?>
-
+<div class="spacer">
+    &nbsp;
+</div>
 
 <div id="general-nosotros">
     <div class="grupo_uno">
@@ -32,7 +34,8 @@
                     
                     <p id="parrafos">
 					
-					<img src="images/nosotros_img.jpg" class="img-alineo" align="left">Su paso a la Frecuencia Modulada (FM) en 1986, la convirtió en la emisora de
+					<img src="images/nosotros_img.jpg" class="img-alineo" align="left">
+					Su paso a la Frecuencia Modulada (FM) en 1986, la convirtió en la emisora de
 					programación cristiana de mayor desarrollo e impacto en la audiencia. Desde entonces su crecimiento
 					sostenido ha sido fruto de novedosas ofertas programáticas y su apuesta por la calidad musical, así
 					como por la conformación de un cuerpo de profesionales del micrófono le han permitido ganar amplios
@@ -57,7 +60,7 @@
 					<br>
 					<br>
 					El formato de la programación está segmentado en tres bloques: Matutino; dirigido a las mujeres y al hogar.
-					Vespertino; dirigido al público joven. Nocturno; dirigido al público adulto compuesto por hombres y mujeres.&nbsp;
+					Vespertino; dirigido al público joven. Nocturno; dirigido al público adulto compuesto por hombres y mujeres.<br>
 					El perfil de la audiencia es 60 % femenino y 40 % masculino. Nivel socio-económico AB-C.
 					</p>
                 </div>

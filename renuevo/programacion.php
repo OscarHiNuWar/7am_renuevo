@@ -28,7 +28,9 @@ body{
 
 <body>
 <?php include("include/menu.php");?>
-
+<div class="spacer">
+    &nbsp;
+</div>
     
 <div id="general-programacion">
     <div class="grupo_uno acomodado">
