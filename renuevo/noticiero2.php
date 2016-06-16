@@ -21,9 +21,11 @@
                     <div class="contenedor-social">
                         <div class="social-box">
                     
-                        <a href="https://es-la.facebook.com/renuevo897/"><div class="icono facesprite"></div></a>
+                       <a href="javascript:var dir=window.document.URL;var tit=window.document.title;var tit2=encodeURIComponent(tit);var dir2= encodeURIComponent(dir);window.location.href=('http://www.facebook.com/share.php?u='+dir2+'&amp;t='+tit2+'');">
+                        <div class="icono facesprite"></div></a>
                         <div class="divisor"></div>
-                        <a href="https://twitter.com/897renuevo?lang=es"><div class="icononosotros twit "></div></a>
+                        <a href="javascript:var dir=window.document.URL;var tit=window.document.title;var tit2=encodeURIComponent(tit);window.location.href=('http://twitter.com/?status='+tit2+'%20'+dir+'');">
+<div class="icononosotros twit "></div></a>
                         
                     </div></div>
                         
