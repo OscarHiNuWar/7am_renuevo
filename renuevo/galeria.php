@@ -3,7 +3,7 @@
 <head>
     
     <?php include("include/head.php");?>
-    
+     
 </head>
 
 
@@ -19,23 +19,23 @@
                 
                 <!-- Primera Fila -->
                 <div class="filauno">
-                <div > <img class="imagen-larga" src="images/jefe-de-prensa.jpg" style="margin-right: 1px;"> </div>
-                <div > <img class="imagen-corta" src="images/miniprensa.jpg"> </div>
+                <div > <a href="images/premio1grande.jpg" data-lightbox="aula" data-title=""> <img class="imagen-larga" src="images/premio1.jpg" style="margin-right: 1px;"> </a> </div>
+                <div > <a href="images/premio2grande.jpg" data-lightbox="aula" data-title=""> <img class="imagen-corta" src="images/premio2.jpg"> </a> </div>
                 </div>
 
                 
                 
                 <div class="filados">
-                <div >  <img src="images/miniprensa.jpg" class="imgagen-cortasegunda">  </div>
-                <div >  <img src="images/miniprensa.jpg" class="imgagen-cortasegunda" >  </div>
-                <div >  <img src="images/miniprensa.jpg" class="imgagen-cortasegunda" style="margin-right: 0px; width: 33.2%;">  </div>
+                <div > <a href="images/avivate_radio.jpg" data-lightbox="aula" data-title=""> <img src="images/galeria1-2.jpg" class="imgagen-cortasegunda"> </a> </div>
+                <div >  <a href="images/conexion_con_el_reino.jpg" data-lightbox="aula" data-title=""> <img src="images/galeria2-2.jpg" class="imgagen-cortasegunda"> </a>  </div>
+                <div > <a href="images/lo_mejor_de_la_noche.jpg" data-lightbox="aula" data-title=""> <img src="images/galeria3-2.jpg" class="imgagen-cortasegunda" style="margin-right: 0px; width: 33.2%;">  </a>  </div>
                 </div>
 
                
                 
                 <div class="filatres">
-                <div class="tres">  <img src="images/miniprensa.jpg" class="imagen-corta">  </div>
-                <div class="tres">  <img src="images/prueba.jpg" class="imagen-larga">  </div>
+                <div class="tres"> <a href="images/atoloqueda.jpg" data-lightbox="aula" data-title=""> <img src="images/galeria4-2.jpg" class="imagen-corta"> </a> </div>
+                <div class="tres"> <a href="images/razon_de_vivir.jpg" data-lightbox="aula" data-title="">  <img src="images/galeria5-2.jpg" class="imagen-larga"> </a> </div>
                 </div> 
 
         </div>

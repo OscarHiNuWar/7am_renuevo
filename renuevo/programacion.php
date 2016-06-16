@@ -20,6 +20,8 @@ body{
 	
 .letra_programa{
 	font-size:14px;}
+	
+	
 </style>
 
 <link rel="stylesheet" type="text/css" href="css/template_contenido.css">
@@ -37,7 +39,7 @@ body{
                 
 			<div class="baja"></div>	
 				
-		<div class="titulo_blog" style="padding:30px 0 30px 0px; width:100%; border-bottom:solid 1px #f2f2f2;"><img style="margin:0px 15px -5px 0px;" src="images/pro_ico.jpg" width="36" height="41" /> <span class="cab-progamacion"> Programación de Lunes a Viernes</span></div>
+		<div class="titulo_blog" style="padding: 30px 0 20px 0px; width:100%; border-bottom:solid 1px #f2f2f2;"> <span class="cab-progamacion"> Programación de Lunes a Viernes</span></div>
 
 <table class="table"  width="90%" border="0" cellspacing="0" cellpadding="0">
 <tr>
@@ -146,7 +148,7 @@ Avivate <span class="corchete">[ Jueves ]</span></td>
 	
 <!-- Grupo Dos -->
 
-<div class="titulo_blog" style="padding:0 0 30px 0px; width:100%; border-bottom:solid 1px #f2f2f2;"><img style="margin:0px 15px -5px 0px;" src="images/pro_ico.jpg" width="36" height="41" /> <span class="cab-progamacion">Programación de los Sábados </span> </div>
+<div class="titulo_blog" style="padding:10px 0 20px 0px; width:100%; border-bottom:solid 1px #f2f2f2;"> <span class="cab-progamacion">Programación de los Sábados </span> </div>
 <table class="table" width="100%" border="0" cellspacing="0" cellpadding="0">
 <tbody>
 <tr>
@@ -226,7 +228,7 @@ Avivate <span class="corchete">[ Jueves ]</span></td>
 
 		<!-- Grupo Tres -->
 		
-		<div class="titulo_blog" style="padding:0 0 30px 0px; width:100%; border-bottom:solid 1px #f2f2f2;"><img style="margin:0px 15px -5px 0px;" src="images/pro_ico.jpg" width="36" height="41" /> <span class="cab-progamacion"> Programación de los Domingos </span></div>
+		<div class="titulo_blog" style="padding: 10px 0 20px 0px; width:100%; border-bottom:solid 1px #f2f2f2;"><span class="cab-progamacion"> Programación de los Domingos </span></div>
 <table class="table" width="100%" border="0" cellspacing="0" cellpadding="0">
 <tbody>
 <tr>

@@ -32,9 +32,11 @@ include('sanear.php');
 
 <head>
 	<?php include("include/head.php");?>
+	
 </head>
     
 <body>
+<a href="<?php echo $path . $img ?>" data-lightbox="aula" data-title=""  id="firstImage"></a>
 
 <?php include("include/menu.php");?>
 <div class="spacer">
@@ -47,14 +49,16 @@ include('sanear.php');
     	<div class="franja"></div>
 		<div class="contenedor-slider">
 			<div class="mini-carousel ">
-			<div class="item"> <img src="images/1.jpg"> </div>
-			<div class="item"> <img src="images/2.jpg"> </div>
-			<div class="item"> <img src="images/3.jpg"> </div>
-			<div class="item"> <img src="images/4.jpg"> </div>
-			<div class="item"> <img src="images/5.jpg"> </div>
-			<div class="item"> <img src="images/6.jpg"> </div>
-			<div class="item"> <img src="images/7.jpg"> </div>
-			<div class="item"> <img src="images/8.jpg"> </div>
+			<div class="item"> <img class="media" src="images/1.png"> </div>
+			<div class="item"> <img class="media" src="images/2.png"> </div>
+			<div class="item"> <img class="media" src="images/3.png"> </div>
+			<div class="item"> <img  class="media"src="images/4-2.png"> </div>
+			<div class="item"> <img class="media" src="images/5.png"> </div>
+			<div class="item"> <img class="media" src="images/6.png"> </div>
+			<div class="item"> <img class="media" src="images/7.png"> </div>
+			<div class="item"> <img  class="media" src="images/8.png"> </div>
+			<div class="item"> <img  class="media" src="images/9.png"> </div>
+			<div class="item"> <img  class="media" src="images/10.png"> </div>
 			</div>
 		</div>
    
@@ -68,7 +72,7 @@ include('sanear.php');
     
         <!--// FIN //-->
     </div>
-</div>
+
     
 <div id="general">
     <div class="grupo_uno">
@@ -76,13 +80,12 @@ include('sanear.php');
         <div class="informacionGeneral">
             <div class="img-art">
             	<div class="cuadro-color"></div>
-            	<img src="images/jefe-de-prensa.jpg">
+            	<img src="images/propositos2.jpg">
             </div>
                 <div class="textonoticia">
                     <p class="titulo">Reflexion</p>
-                    <p class="txtCabecera">Sonografia General, Doppler a Color 
-                    y Musculo Esqueletico</p>
-                    <p class="parrafos">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor...</p>
+                    <p class="txtCabecera">Dios es quien te sustenta en todo</p>
+                    <a href="reflexion1.php" class="decora"><p class="parrafos">Salmos 94: 18 “Cuando yo decía: Mi pie resbala, Tu misericordia, oh Jehová, sustentaba”... Leer Más</p></a>
                 </div>
         
         </div>
@@ -90,36 +93,38 @@ include('sanear.php');
     <div class="informacionGeneral" style="margin-right:0;" ><!--style="background-color: violet;"-->
         <div class="img-art">
         	<div class="cuadro-color"></div>
-        	<img src="images/jefe-de-prensa.jpg">
+        	<img src="images/noticia1.jpg">
         </div>
         <div class="textonoticia">
         <p class="titulo">Noticia</p>
-            <p class="txtCabecera">Sonografia General, Doppler a Color 
-                y Musculo Esqueletico</p>
-        <p class="parrafos"> This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor...</p>
+            <p class="txtCabecera">Cristianos de EEUU muestran apoyo ante la masacre</p>
+        <a href="noticiero1.php" class="decora"><p class="parrafos">“Llamamos a nuestras congregaciones a orar y mostrar amor a los homosexuales”, enfatizó Russell Moore, 
+					presidente de la Comisión de Ética de la Convención...&nbsp;&nbsp;&nbsp;&nbsp; Leer Más</a></p>
             </div>
     </div>    
         
     <div class="imgGeneral">
+	<a href="galeria.php">
+	<div id="txt" style="position: absolute; margin-top: 12px; width: 85px; height: 35px;"><div style="color: white; font-size: 23px; margin-bottom: 0px;">Galeria</div></div>
         <div class="contenedormini">
             <div class="mini">
-            	<img src="images/jefe-de-prensa.jpg">
+            	<img src="images/atoloquedamini.jpg">
             </div>
             <div class="mini">
-            <img src="images/jefe-de-prensa.jpg">
+            <img src="images/avivate_radiomini.jpg">
             </div>
         </div>
         
         <div class="contenedorgrande">
-            <div class="grande"><img  src="images/jefe-de-prensa.jpg"></div>
-            <div class="grande" style=" margin-right:0;"><img  src="images/jefe-de-prensa.jpg"></div>
+            <div class="grande"><img  src="images/congrande.jpg"></div>
+            <div class="grande" style=" margin-right:0;"><img  src="images/mejornochegrande.jpg"></div>
         </div>
         
         <div class="contenedormini" style="margin-right:0;">
-            <div class="mini"><img  src="images/jefe-de-prensa.jpg"></div>
-            <div class="mini"><img  src="images/jefe-de-prensa.jpg"></div>
+            <div class="mini"><img  src="images/premio1mini.jpg"></div>
+            <div class="mini"><img  src="images/premio2mini.jpg"></div>
         </div>
-        
+        </a>
     </div>
 </div>
     <div class="importante"><img class="importante-ajuste" src="images/banner.jpg"></div>
@@ -131,13 +136,11 @@ include('sanear.php');
     <div class="contenedorvideo">
             <div id="textoVideo">
                 <div id="txt"><div style="color: white; font-size: 23px; margin-bottom: 0px;">Video</div>
-                    <div class="sonografia">Sonografia General, 
-                    Doppler a Color y Musculo 
-                    Esqueletico</div>
+                    <div class="sonografia">Matty Martinez - Te Perdono (Video Oficial)</div>
                        </div>
                 
             </div>
-        <!--  --><div id="mediaVideo"> <iframe class="video-ajuste" width="100%" height="315" src="https://www.youtube.com/embed/yUbZdl7Z92U" frameborder="0" allowfullscreen></iframe> </div>
+        <!--  --><div id="mediaVideo"> <iframe class="video-ajuste"  src="https://www.youtube.com/embed/innGRc5w9K8" frameborder="0" allowfullscreen></iframe> </div>
     </div>
 </div>
     

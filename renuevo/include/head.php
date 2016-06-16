@@ -44,6 +44,9 @@
 					margin-left: 1px;
 					margin: auto;
 		}
+		
+	
+		
 
 
     </style>
@@ -51,10 +54,49 @@
 		<script type="text/javascript" src="js/jquery.js"></script>
 
  		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
-		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" type="text/css" href="css/component3d.css" />
+		<link rel="stylesheet" type="text/css" href="css/menu_sideslide.css" />
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+		<link rel="stylesheet" href="css/lightbox.css">
+		
 		<!-- csstransforms3d-shiv-cssclasses-prefixed-teststyles-testprop-testallprops-prefixes-domprefixes-load --> 
 		<script src="js/modernizr.custom.25376.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("#firstImage").trigger("click");
+			});
+		</script>
+		<?php 
+			$root = '';
+			$path = 'images/ads/';
+			$imgList = getImagesFromDir($root . $path);
+			$img = getRandomFromArray($imgList);
+				function getImagesFromDir($path) {
+					$images = array();
+					if ( $img_dir = @opendir($path) ) {
+						while ( false !== ($img_file = readdir($img_dir)) ) {
+							// checks for gif, jpg, png
+							if ( preg_match("/(\.gif|\.jpg|\.png)$/", $img_file) ) {
+								$images[] = $img_file;
+							}
+						}
+						closedir($img_dir);
+					}
+					return $images;
+				}
+
+				function getRandomFromArray($ar) {
+					$num = array_rand($ar);
+					return $ar[$num];
+				}
+
+		?>
 		
 		
+		
+
+
+
+
 		
 	

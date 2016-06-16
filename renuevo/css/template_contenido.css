@@ -26,6 +26,14 @@
 
 }
 
+@font-face {
+    font-family: 'clear_sansbold';
+    src: url('../fonts/clearsans-bold-webfont.woff2') format('woff2'),
+         url('../fonts/clearsans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 body{
 	margin:0;
@@ -179,7 +187,7 @@ header{
 	}
 	.titulo_blog{
 		width:63%;
-		letter-spacing:-3px;
+		
 		font-size:46px;
 		color:#008710;
 		margin-left:24px;
